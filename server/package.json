@@ -1,0 +1,32 @@
+{
+  "name": "youtuble",
+  "version": "1.0.0",
+  "description": "Get monizt easy way",
+  "license": "ISC",
+  "author": "ojenima",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.4.0",
+    "connect-pg-simple": "^10.0.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.5",
+    "express-session": "^1.19.0",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.3",
+    "middleware": "^1.0.0",
+    "nodemon": "^3.1.14",
+    "npm": "^11.21.3",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.23.1",
+    "react": "^19.3.1"
+  }
+}

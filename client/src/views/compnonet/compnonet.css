@@ -1,0 +1,383 @@
+.book-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}.book-section .container{
+    max-width: 750px;
+    margin: 0;
+
+}.book-section h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #172554;
+  margin-bottom: 35px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* form */
+.booking-form{
+    background: #ffffff;
+    padding: 40px !important;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+
+}.booking-form .mb-3{
+    margin-bottom: 22px !important;
+
+}.booking-form label{
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #172554;
+    margin-bottom: 9px;
+    text-align: left;
+    text-transform: capitalize;
+
+}.booking-form .form-control,
+  .booking-form .form-select{
+    width: 100%;
+    padding: 13px 15px;
+    font-size: 15px;
+    color: #334155;
+    border: 1px solid #dbe2ea;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    outline: none;
+
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+
+  }.booking-form .form-control:focus,
+    .booking-form .form-select:focus{
+        border-color: #2563eb;
+        background: #fff;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+
+    }
+
+    /* seleted-package========= */
+
+    .seleted-package{
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+        border-left: 5px solid #2563eb;
+        border-radius: 10px;
+        padding: 22px !important;
+        margin-top: 20px;
+
+    }.price-mb4{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }.seleted-package h3{
+        font-size: 13px;
+        font-weight: 700;
+        color: #1e3a8a;
+        margin-bottom: 10px;
+
+    }.seleted-package h4{
+        font-size: 25px;
+        font-weight: 700;
+        color: #16a34a;
+
+    }.seleted-package p{
+        font-size: 15px;
+        font-weight: 600;
+        color: #334155;
+
+    }.seleted-package ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+         padding-left: 22px;
+         margin-bottom: 5px;
+        
+
+    }.seleted-package li{
+        font-size: 14px;
+        margin-bottom: 8px;
+        color: #475569;
+        list-style: none;
+    }
+
+    /* ======= button */
+    .booking-form .btn{
+        width: 100%;
+        padding: 14px;
+        background: #16a34a;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        
+        transition: 0.3s ease;
+        cursor: pointer;
+
+    }.booking-form .btn-success:hover{
+        background: #15803d;
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(22, 163, 74, 0.2);
+    }
+
+    /* ========== image */
+
+.book-image{
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 24px;
+    padding: 32px;
+    color: white;
+    width: 100%;
+
+}.book-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* ====== services */
+.services-section h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #172554;
+
+}.services-section .container > p{
+    color: #666;
+    font-size: 17px;
+    margin-bottom: 35px;
+
+}.service-card{
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #e8edf3;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    
+    height: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 35px 25px !important;
+    
+}.service-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    border-color: #2563eb;
+
+}.service-card h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}.service-card h4{
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #172554;
+
+}.service-card p{
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    color: #666;
+}
+
+/* ==== news */
+.news-section h1 {
+  color: #172554;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+
+}.news-card {                /* news card */
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px !important;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05) px ;
+  border: 1px solid #e8edf3;
+
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+
+}.news-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+
+}.news-card small{
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 600;
+
+}.news-card h4{
+    color: #172554;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.4;
+
+}.news-card p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+
+}.news-card button{
+    background: #2563eb;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-top: auto;
+    align-self: flex-start;
+    transition: 0.3s ease;
+
+}.news-card button:hover {
+  background: #172554;
+}
+
+
+
+/*========= contact section */
+.contact-section h1 {
+  color: #172554;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+
+}.contact-section > .container > p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Contact information box */
+.contact-info {
+  background: #172554;
+  color: #fff;
+  border-radius: 12px;
+  padding: 35px !important;
+  height: 100%;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+
+}.contact-info h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 25px;
+
+}.contact-info p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+
+}.contact-form {
+  background: #fff;
+  border-radius: 12px;
+  padding: 35px !important;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+
+}.contact-form label {
+  display: block;
+  color: #172554;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+
+}.contact-form .form-control {
+  padding: 12px 15px;
+  border: 1px solid #dce2eb;
+  border-radius: 7px;
+  font-size: 15px;
+  background: #fafafa;
+  transition: 0.3s ease;
+
+}.contact-form .form-control:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  background: #fff;
+  outline: none;
+
+}.contact-form textarea {
+  resize: vertical;
+
+}.contact-form button {
+    background: #2563eb;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}.contact-form button:hover {
+  background: #172554;
+  transform: translateY(-2px);
+}
+
+
+/* ======= Offer */
+.offer-section h1 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #172b4d;
+    margin-bottom: 15px;
+
+}.offer-section > .container > p {
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 35px;
+
+}.offer-card {
+    background: #ffffff;
+    border: 1px solid #e5e9f2;
+    border-radius: 16px;
+    padding: 35px 25px !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}.offer-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    border-color: #0d6efd;
+
+}.offer-card h3 {   /* Package name */
+    font-size: 23px;
+    font-weight: 700;
+    color: #172b4d;
+    margin-bottom: 20px;
+
+}.offer-card h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #0d6efd;
+    margin-bottom: 25px;
+
+}.offer-card p {
+    color: #606b7a;
+    font-size: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: left;
+
+}.offer-card .btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: auto;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.3s ease;
+
+}.offer-card .btn:hover {
+    background: #084298;
+    transform: scale(1.02);
+    
+}
